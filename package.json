@@ -1,0 +1,21 @@
+{
+  "description": "html-bundler-webpack-plugin and react",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "watch": "webpack watch --mode development",
+    "build": "webpack --mode=production --progress"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.22.5",
+    "babel-loader": "^9.1.2",
+    "html-bundler-webpack-plugin": "2.0.1",
+    "webpack": "^5.88.1",
+    "webpack-cli": "5.1.1",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-markdown": "^8.0.7"
+  }
+}
